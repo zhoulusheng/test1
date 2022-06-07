@@ -1,5 +1,5 @@
 import sys
-from PyQt5.QtWidgets import QApplication,QMainWindow
+from PyQt5.QtWidgets import QApplication, QMainWindow
 from PyQt5.QtGui import QIcon #添加图标
 
 class FirstMainWindow(QMainWindow):
@@ -17,7 +17,7 @@ class FirstMainWindow(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('../python/111.ico'))
+    # app.setWindowIcon(QIcon('../python/111.ico'))
     main = FirstMainWindow()
     main.show()
     sys.exit(app.exec_())

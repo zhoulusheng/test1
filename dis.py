@@ -3,7 +3,6 @@ from PyQt5.QtWidgets import QApplication , QMainWindow,QFileDialog
 
 import call
 
-
 class log_window(call.Ui_MainWindow,QMainWindow):
     def __init__(self):
         super(log_window,self).__init__()

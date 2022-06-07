@@ -7,6 +7,7 @@ for i in range(1,4):
     time.sleep(1)
     print('现在开始第'+str(i)+'局')
 # 生成双方角色并随机生成属性
+# 生成双方角色并随机生成属性
     player_life = random.randint(100,150)
     player_attack = random.randint(30,50)
     enemy_life = random.randint(100,150)
